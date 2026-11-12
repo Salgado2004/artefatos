@@ -1,0 +1,248 @@
+{
+  "nome": "Desafio2",
+  "entradas": [
+    ""
+  ],
+  "estado": 0,
+  "lista": [
+    {
+      "id": 0,
+      "chamada": "contarElementos",
+      "estado": 0,
+      "entradas": [
+        ""
+      ],
+      "saidas": [
+        ""
+      ],
+      "grafo": [
+        {
+          "idx": 0,
+          "tipo": "lig",
+          "meta": {
+            "position": {
+              "x": 311,
+              "y": 173
+            }
+          },
+          "ligacoes": [
+            1,
+            6
+          ],
+          "ligacaoPortas": [
+            0,
+            0
+          ],
+          "inputs": [
+            ""
+          ],
+          "outputs": [
+            ""
+          ]
+        },
+        {
+          "idx": 1,
+          "tipo": "is-empty",
+          "meta": {
+            "position": {
+              "x": 532.7142857142858,
+              "y": 172.57142857142856
+            }
+          },
+          "ligacoes": [
+            2
+          ],
+          "ligacaoPortas": [
+            0
+          ],
+          "inputs": [
+            ""
+          ],
+          "outputs": [
+            ""
+          ]
+        },
+        {
+          "idx": 2,
+          "tipo": "disor",
+          "meta": {
+            "position": {
+              "x": 661,
+              "y": 172
+            }
+          },
+          "ligacoes": [
+            4,
+            6
+          ],
+          "ligacaoPortas": [
+            0,
+            0
+          ],
+          "inputs": [
+            ""
+          ],
+          "outputs": [
+            ""
+          ]
+        },
+        {
+          "idx": 3,
+          "tipo": "visor",
+          "meta": {
+            "position": {
+              "x": 1323.142857142857,
+              "y": 172
+            }
+          },
+          "ligacoes": [
+            9
+          ],
+          "ligacaoPortas": [
+            0
+          ],
+          "inputs": [
+            "",
+            ""
+          ],
+          "outputs": [
+            ""
+          ]
+        },
+        {
+          "idx": 4,
+          "tipo": "const",
+          "meta": {
+            "position": {
+              "x": 848,
+              "y": 22.142857142857153
+            }
+          },
+          "ligacoes": [
+            3
+          ],
+          "ligacaoPortas": [
+            0
+          ],
+          "inputs": [
+            0
+          ],
+          "outputs": [
+            ""
+          ]
+        },
+        {
+          "idx": 5,
+          "tipo": "encp",
+          "meta": {
+            "position": {
+              "x": 1016.4285714285713,
+              "y": 299.85714285714283
+            }
+          },
+          "ligacoes": [
+            "contarElementos",
+            8
+          ],
+          "ligacaoPortas": [
+            null,
+            0
+          ],
+          "inputs": [
+            ""
+          ],
+          "outputs": [
+            ""
+          ]
+        },
+        {
+          "idx": 6,
+          "tipo": "tail",
+          "meta": {
+            "position": {
+              "x": 847.1428571428572,
+              "y": 300.28571428571433
+            }
+          },
+          "ligacoes": [
+            5
+          ],
+          "ligacaoPortas": [
+            0
+          ],
+          "inputs": [
+            ""
+          ],
+          "outputs": [
+            ""
+          ]
+        },
+        {
+          "idx": 7,
+          "tipo": "const",
+          "meta": {
+            "position": {
+              "x": 1020.3877551020407,
+              "y": 400.5578231292517
+            }
+          },
+          "ligacoes": [
+            8
+          ],
+          "ligacaoPortas": [
+            1
+          ],
+          "inputs": [
+            1
+          ],
+          "outputs": [
+            ""
+          ]
+        },
+        {
+          "idx": 8,
+          "tipo": "soma",
+          "meta": {
+            "position": {
+              "x": 1158.9591836734696,
+              "y": 339.1292517006802
+            }
+          },
+          "ligacoes": [
+            3
+          ],
+          "ligacaoPortas": [
+            1
+          ],
+          "inputs": [
+            "",
+            ""
+          ],
+          "outputs": [
+            ""
+          ]
+        },
+        {
+          "idx": 9,
+          "tipo": "lig",
+          "meta": {
+            "position": {
+              "x": 1448.5714285714287,
+              "y": 171.57142857142856
+            }
+          },
+          "ligacoes": [
+            "output"
+          ],
+          "ligacaoPortas": [],
+          "inputs": [
+            ""
+          ],
+          "outputs": [
+            ""
+          ]
+        }
+      ]
+    }
+  ]
+}
