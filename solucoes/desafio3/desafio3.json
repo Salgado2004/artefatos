@@ -1,0 +1,409 @@
+{
+  "nome": "Desafio3",
+  "entradas": [
+    5
+  ],
+  "estado": 0,
+  "lista": [
+    {
+      "id": 0,
+      "chamada": "quantidadeCaminhos",
+      "estado": 0,
+      "entradas": [
+        ""
+      ],
+      "saidas": [
+        ""
+      ],
+      "grafo": [
+        {
+          "idx": 0,
+          "tipo": "lig",
+          "meta": {
+            "position": {
+              "x": 495.75,
+              "y": 183.5
+            }
+          },
+          "ligacoes": [
+            6,
+            2
+          ],
+          "ligacaoPortas": [
+            0,
+            1
+          ],
+          "inputs": [
+            ""
+          ],
+          "outputs": [
+            ""
+          ]
+        },
+        {
+          "idx": 1,
+          "tipo": "const",
+          "meta": {
+            "position": {
+              "x": 495,
+              "y": 74
+            }
+          },
+          "ligacoes": [
+            2
+          ],
+          "ligacaoPortas": [
+            0
+          ],
+          "inputs": [
+            2
+          ],
+          "outputs": [
+            ""
+          ]
+        },
+        {
+          "idx": 2,
+          "tipo": "maio",
+          "meta": {
+            "position": {
+              "x": 634,
+              "y": 129
+            }
+          },
+          "ligacoes": [
+            3
+          ],
+          "ligacaoPortas": [
+            0
+          ],
+          "inputs": [
+            "",
+            ""
+          ],
+          "outputs": [
+            ""
+          ]
+        },
+        {
+          "idx": 3,
+          "tipo": "disor",
+          "meta": {
+            "position": {
+              "x": 774,
+              "y": 174
+            }
+          },
+          "ligacoes": [
+            5,
+            6
+          ],
+          "ligacaoPortas": [
+            0,
+            1
+          ],
+          "inputs": [
+            ""
+          ],
+          "outputs": [
+            ""
+          ]
+        },
+        {
+          "idx": 4,
+          "tipo": "visor",
+          "meta": {
+            "position": {
+              "x": 1700.5,
+              "y": 211.75
+            }
+          },
+          "ligacoes": [
+            16
+          ],
+          "ligacaoPortas": [
+            0
+          ],
+          "inputs": [
+            "",
+            ""
+          ],
+          "outputs": [
+            ""
+          ]
+        },
+        {
+          "idx": 5,
+          "tipo": "const",
+          "meta": {
+            "position": {
+              "x": 1077,
+              "y": -7
+            }
+          },
+          "ligacoes": [
+            4
+          ],
+          "ligacaoPortas": [
+            0
+          ],
+          "inputs": [
+            1
+          ],
+          "outputs": [
+            ""
+          ]
+        },
+        {
+          "idx": 6,
+          "tipo": "lig",
+          "meta": {
+            "position": {
+              "x": 926.4861111111111,
+              "y": 311.3125
+            }
+          },
+          "ligacoes": [
+            9,
+            10
+          ],
+          "ligacaoPortas": [
+            0,
+            0
+          ],
+          "inputs": [
+            ""
+          ],
+          "outputs": [
+            ""
+          ]
+        },
+        {
+          "idx": 7,
+          "tipo": "const",
+          "meta": {
+            "position": {
+              "x": 1080.861111111111,
+              "y": 310.375
+            }
+          },
+          "ligacoes": [
+            11
+          ],
+          "ligacaoPortas": [
+            1
+          ],
+          "inputs": [
+            1
+          ],
+          "outputs": [
+            ""
+          ]
+        },
+        {
+          "idx": 8,
+          "tipo": "const",
+          "meta": {
+            "position": {
+              "x": 1078.361111111111,
+              "y": 507.875
+            }
+          },
+          "ligacoes": [
+            12
+          ],
+          "ligacaoPortas": [
+            1
+          ],
+          "inputs": [
+            2
+          ],
+          "outputs": [
+            ""
+          ]
+        },
+        {
+          "idx": 9,
+          "tipo": "lig",
+          "meta": {
+            "position": {
+              "x": 1080.861111111111,
+              "y": 218.1875
+            }
+          },
+          "ligacoes": [
+            11
+          ],
+          "ligacaoPortas": [
+            0
+          ],
+          "inputs": [
+            ""
+          ],
+          "outputs": [
+            ""
+          ]
+        },
+        {
+          "idx": 10,
+          "tipo": "lig",
+          "meta": {
+            "position": {
+              "x": 1080.861111111111,
+              "y": 421.9375
+            }
+          },
+          "ligacoes": [
+            12
+          ],
+          "ligacaoPortas": [
+            0
+          ],
+          "inputs": [
+            ""
+          ],
+          "outputs": [
+            ""
+          ]
+        },
+        {
+          "idx": 11,
+          "tipo": "subs",
+          "meta": {
+            "position": {
+              "x": 1225.861111111111,
+              "y": 260.6875
+            }
+          },
+          "ligacoes": [
+            13
+          ],
+          "ligacaoPortas": [
+            0
+          ],
+          "inputs": [
+            "",
+            ""
+          ],
+          "outputs": [
+            ""
+          ]
+        },
+        {
+          "idx": 12,
+          "tipo": "subs",
+          "meta": {
+            "position": {
+              "x": 1223.361111111111,
+              "y": 465.6875
+            }
+          },
+          "ligacoes": [
+            14
+          ],
+          "ligacaoPortas": [
+            0
+          ],
+          "inputs": [
+            "",
+            ""
+          ],
+          "outputs": [
+            ""
+          ]
+        },
+        {
+          "idx": 13,
+          "tipo": "encp",
+          "meta": {
+            "position": {
+              "x": 1370.861111111111,
+              "y": 314.125
+            }
+          },
+          "ligacoes": [
+            "quantidadeCaminhos",
+            15
+          ],
+          "ligacaoPortas": [
+            null,
+            0
+          ],
+          "inputs": [
+            ""
+          ],
+          "outputs": [
+            ""
+          ]
+        },
+        {
+          "idx": 14,
+          "tipo": "encp",
+          "meta": {
+            "position": {
+              "x": 1369.611111111111,
+              "y": 417.875
+            }
+          },
+          "ligacoes": [
+            "quantidadeCaminhos",
+            15
+          ],
+          "ligacaoPortas": [
+            null,
+            1
+          ],
+          "inputs": [
+            ""
+          ],
+          "outputs": [
+            ""
+          ]
+        },
+        {
+          "idx": 15,
+          "tipo": "soma",
+          "meta": {
+            "position": {
+              "x": 1514.6111111111109,
+              "y": 365.5
+            }
+          },
+          "ligacoes": [
+            4
+          ],
+          "ligacaoPortas": [
+            1
+          ],
+          "inputs": [
+            "",
+            ""
+          ],
+          "outputs": [
+            ""
+          ]
+        },
+        {
+          "idx": 16,
+          "tipo": "lig",
+          "meta": {
+            "position": {
+              "x": 1852.6111111111109,
+              "y": 211.5
+            }
+          },
+          "ligacoes": [
+            "output"
+          ],
+          "ligacaoPortas": [],
+          "inputs": [
+            ""
+          ],
+          "outputs": [
+            ""
+          ]
+        }
+      ]
+    }
+  ]
+}
