@@ -1,0 +1,245 @@
+{
+  "nome": "Desafio1",
+  "entradas": [
+    7
+  ],
+  "estado": 0,
+  "lista": [
+    {
+      "id": 0,
+      "chamada": "resultado",
+      "estado": 0,
+      "entradas": [
+        ""
+      ],
+      "saidas": [
+        ""
+      ],
+      "grafo": [
+        {
+          "idx": 0,
+          "tipo": "lig",
+          "meta": {
+            "position": {
+              "x": 479,
+              "y": 70
+            }
+          },
+          "ligacoes": [
+            2
+          ],
+          "ligacaoPortas": [
+            0
+          ],
+          "inputs": [
+            ""
+          ],
+          "outputs": [
+            ""
+          ]
+        },
+        {
+          "idx": 1,
+          "tipo": "const",
+          "meta": {
+            "position": {
+              "x": 476,
+              "y": 177
+            }
+          },
+          "ligacoes": [
+            2
+          ],
+          "ligacaoPortas": [
+            1
+          ],
+          "inputs": [
+            2
+          ],
+          "outputs": [
+            ""
+          ]
+        },
+        {
+          "idx": 2,
+          "tipo": "resto",
+          "meta": {
+            "position": {
+              "x": 659,
+              "y": 115
+            }
+          },
+          "ligacoes": [
+            3
+          ],
+          "ligacaoPortas": [
+            0
+          ],
+          "inputs": [
+            "",
+            ""
+          ],
+          "outputs": [
+            ""
+          ]
+        },
+        {
+          "idx": 3,
+          "tipo": "igual",
+          "meta": {
+            "position": {
+              "x": 820,
+              "y": 169
+            }
+          },
+          "ligacoes": [
+            7
+          ],
+          "ligacaoPortas": [
+            0
+          ],
+          "inputs": [
+            "",
+            ""
+          ],
+          "outputs": [
+            ""
+          ]
+        },
+        {
+          "idx": 4,
+          "tipo": "const",
+          "meta": {
+            "position": {
+              "x": 652,
+              "y": 240
+            }
+          },
+          "ligacoes": [
+            3
+          ],
+          "ligacaoPortas": [
+            1
+          ],
+          "inputs": [
+            0
+          ],
+          "outputs": [
+            ""
+          ]
+        },
+        {
+          "idx": 5,
+          "tipo": "const",
+          "meta": {
+            "position": {
+              "x": 1130,
+              "y": 75
+            }
+          },
+          "ligacoes": [
+            8
+          ],
+          "ligacaoPortas": [
+            0
+          ],
+          "inputs": [
+            "V"
+          ],
+          "outputs": [
+            ""
+          ]
+        },
+        {
+          "idx": 6,
+          "tipo": "const",
+          "meta": {
+            "position": {
+              "x": 1140,
+              "y": 284
+            }
+          },
+          "ligacoes": [
+            8
+          ],
+          "ligacaoPortas": [
+            1
+          ],
+          "inputs": [
+            "D"
+          ],
+          "outputs": [
+            ""
+          ]
+        },
+        {
+          "idx": 7,
+          "tipo": "disor",
+          "meta": {
+            "position": {
+              "x": 978,
+              "y": 170
+            }
+          },
+          "ligacoes": [
+            5,
+            6
+          ],
+          "ligacaoPortas": [
+            0,
+            0
+          ],
+          "inputs": [
+            ""
+          ],
+          "outputs": [
+            ""
+          ]
+        },
+        {
+          "idx": 8,
+          "tipo": "visor",
+          "meta": {
+            "position": {
+              "x": 1276,
+              "y": 176
+            }
+          },
+          "ligacoes": [
+            9
+          ],
+          "ligacaoPortas": [
+            0
+          ],
+          "inputs": [
+            "",
+            ""
+          ],
+          "outputs": [
+            ""
+          ]
+        },
+        {
+          "idx": 9,
+          "tipo": "lig",
+          "meta": {
+            "position": {
+              "x": 1413,
+              "y": 178
+            }
+          },
+          "ligacoes": [
+            "output"
+          ],
+          "ligacaoPortas": [],
+          "inputs": [
+            ""
+          ],
+          "outputs": [
+            ""
+          ]
+        }
+      ]
+    }
+  ]
+}
