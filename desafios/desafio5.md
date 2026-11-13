@@ -2,7 +2,7 @@
 
 Uma estação de pesquisa organiza amostras em recipientes cujo número deve ser uma potência de uma base escolhida para cada experimento. Em um experimento, as bases possíveis são números inteiros maiores ou iguais a 2.
 
-A partir da estratégia usada em `ehPotenciaDeDois`, crie uma função `ehPotencia(n, base)` que retorne verdadeiro quando existir um inteiro `k` tal que `n = base^k`. Considere `n` positivo, `base >= 2` e que `1` é uma potência de toda base válida. Reutilize a estrutura do desafio anterior em vez de criar uma solução independente para cada base.
+A partir da estratégia usada em `ehPotenciaDeDois`, crie uma função `ehPotencia(n, base)` que retorne verdadeiro quando existir um inteiro `k` tal que `n = base^k`. Considere `n` positivo, `base >= 2` e que `1` é uma potência de toda base válida.
 ## Prompts cognitivos
 
 - O que na solução anterior era uma característica específica do número dois?
