@@ -2,7 +2,7 @@
 
 Uma empresa de iluminação organiza seus equipamentos em grupos cujo tamanho deve dobrar a cada etapa: 1, 2, 4, 8 e assim por diante. O inventário também registra o fabricante, a cor das lâmpadas e a data de compra.
 
-Crie uma função `ehPotenciaDeDois(n)` que retorne verdadeiro quando `n` for uma potência inteira de dois e falso nos demais casos. Considere como potências de dois os valores `1`, `2`, `4`, `8` e os valores obtidos continuamente pela multiplicação por dois. A solução deve tratar valores positivos, zero e valores negativos.
+Crie uma função `ehPotenciaDeDois(n)` que retorne **"verdadeiro"** quando `n` for uma potência inteira de dois e **"falso"** nos demais casos. Considere como potências de dois os valores `1`, `2`, `4`, `8` e os valores obtidos continuamente pela multiplicação por dois. A solução deve tratar valores positivos, zero e valores negativos.
 ## Prompts cognitivos
 
 - Qual é o caso mais simples que deve ser aceito?
@@ -17,3 +17,4 @@ Crie uma função `ehPotenciaDeDois(n)` que retorne verdadeiro quando `n` for um
 - Como sua solução identifica que um número não pode ser potência de dois?
 - Qual é o caso-base e qual é o caso recursivo?
 - Que parte da solução depende especificamente da base dois?
+- O que você faria se tivesse que adaptar a função para retornar qual potência de dois é o número, caso ele seja uma potência de dois?
