@@ -1,0 +1,1252 @@
+{
+  "nome": "Desafio8",
+  "entradas": [
+    {
+      "kind": "list",
+      "elements": [
+        1,
+        2,
+        11,
+        12
+      ]
+    }
+  ],
+  "estado": 0,
+  "lista": [
+    {
+      "id": 0,
+      "chamada": "ehPar",
+      "estado": 0,
+      "entradas": [
+        ""
+      ],
+      "saidas": [
+        ""
+      ],
+      "grafo": [
+        {
+          "idx": 0,
+          "tipo": "lig",
+          "meta": {
+            "position": {
+              "x": 482,
+              "y": 201
+            }
+          },
+          "ligacoes": [
+            2
+          ],
+          "ligacaoPortas": [
+            0
+          ],
+          "inputs": [
+            ""
+          ],
+          "outputs": [
+            ""
+          ]
+        },
+        {
+          "idx": 1,
+          "tipo": "const",
+          "meta": {
+            "position": {
+              "x": 480,
+              "y": 290
+            }
+          },
+          "ligacoes": [
+            2
+          ],
+          "ligacaoPortas": [
+            1
+          ],
+          "inputs": [
+            2
+          ],
+          "outputs": [
+            ""
+          ]
+        },
+        {
+          "idx": 2,
+          "tipo": "resto",
+          "meta": {
+            "position": {
+              "x": 632.5,
+              "y": 242
+            }
+          },
+          "ligacoes": [
+            4
+          ],
+          "ligacaoPortas": [
+            0
+          ],
+          "inputs": [
+            "",
+            ""
+          ],
+          "outputs": [
+            ""
+          ]
+        },
+        {
+          "idx": 3,
+          "tipo": "const",
+          "meta": {
+            "position": {
+              "x": 633.5,
+              "y": 343
+            }
+          },
+          "ligacoes": [
+            4
+          ],
+          "ligacaoPortas": [
+            1
+          ],
+          "inputs": [
+            0
+          ],
+          "outputs": [
+            ""
+          ]
+        },
+        {
+          "idx": 4,
+          "tipo": "igual",
+          "meta": {
+            "position": {
+              "x": 786.5,
+              "y": 285
+            }
+          },
+          "ligacoes": [
+            5
+          ],
+          "ligacaoPortas": [
+            0
+          ],
+          "inputs": [
+            "",
+            ""
+          ],
+          "outputs": [
+            ""
+          ]
+        },
+        {
+          "idx": 5,
+          "tipo": "lig",
+          "meta": {
+            "position": {
+              "x": 916.5,
+              "y": 288
+            }
+          },
+          "ligacoes": [
+            "output"
+          ],
+          "ligacaoPortas": [],
+          "inputs": [
+            ""
+          ],
+          "outputs": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "chamada": "ehMaiorQue10",
+      "estado": 0,
+      "entradas": [
+        ""
+      ],
+      "saidas": [
+        ""
+      ],
+      "grafo": [
+        {
+          "idx": 0,
+          "tipo": "lig",
+          "meta": {
+            "position": {
+              "x": 474.5,
+              "y": 201
+            }
+          },
+          "ligacoes": [
+            2
+          ],
+          "ligacaoPortas": [
+            0
+          ],
+          "inputs": [
+            ""
+          ],
+          "outputs": [
+            ""
+          ]
+        },
+        {
+          "idx": 1,
+          "tipo": "const",
+          "meta": {
+            "position": {
+              "x": 476.5,
+              "y": 295
+            }
+          },
+          "ligacoes": [
+            2
+          ],
+          "ligacaoPortas": [
+            1
+          ],
+          "inputs": [
+            10
+          ],
+          "outputs": [
+            ""
+          ]
+        },
+        {
+          "idx": 2,
+          "tipo": "maio",
+          "meta": {
+            "position": {
+              "x": 626.5,
+              "y": 244
+            }
+          },
+          "ligacoes": [
+            3
+          ],
+          "ligacaoPortas": [
+            0
+          ],
+          "inputs": [
+            "",
+            ""
+          ],
+          "outputs": [
+            ""
+          ]
+        },
+        {
+          "idx": 3,
+          "tipo": "lig",
+          "meta": {
+            "position": {
+              "x": 765.5,
+              "y": 246
+            }
+          },
+          "ligacoes": [
+            "output"
+          ],
+          "ligacaoPortas": [],
+          "inputs": [
+            ""
+          ],
+          "outputs": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "chamada": "auxiliar",
+      "estado": 0,
+      "entradas": [
+        "",
+        "",
+        ""
+      ],
+      "saidas": [
+        ""
+      ],
+      "grafo": [
+        {
+          "idx": 0,
+          "tipo": "lig",
+          "meta": {
+            "position": {
+              "x": 474.5,
+              "y": 201
+            }
+          },
+          "ligacoes": [
+            3,
+            4
+          ],
+          "ligacaoPortas": [
+            0,
+            0
+          ],
+          "inputs": [
+            ""
+          ],
+          "outputs": [
+            ""
+          ]
+        },
+        {
+          "idx": 1,
+          "tipo": "lig",
+          "meta": {
+            "position": {
+              "x": 784.4375,
+              "y": 201.625
+            }
+          },
+          "ligacoes": [
+            6
+          ],
+          "ligacaoPortas": [
+            0
+          ],
+          "inputs": [
+            ""
+          ],
+          "outputs": [
+            ""
+          ]
+        },
+        {
+          "idx": 2,
+          "tipo": "lig",
+          "meta": {
+            "position": {
+              "x": 1111,
+              "y": 190.375
+            }
+          },
+          "ligacoes": [
+            8,
+            9
+          ],
+          "ligacaoPortas": [
+            0,
+            0
+          ],
+          "inputs": [
+            ""
+          ],
+          "outputs": [
+            ""
+          ]
+        },
+        {
+          "idx": 3,
+          "tipo": "head",
+          "meta": {
+            "position": {
+              "x": 697,
+              "y": 18.666666666666686
+            }
+          },
+          "ligacoes": [
+            11,
+            8
+          ],
+          "ligacaoPortas": [
+            0,
+            1
+          ],
+          "inputs": [
+            ""
+          ],
+          "outputs": [
+            ""
+          ]
+        },
+        {
+          "idx": 4,
+          "tipo": "tail",
+          "meta": {
+            "position": {
+              "x": 662.3333333333334,
+              "y": 384.66666666666674
+            }
+          },
+          "ligacoes": [
+            5
+          ],
+          "ligacaoPortas": [
+            0
+          ],
+          "inputs": [
+            ""
+          ],
+          "outputs": [
+            ""
+          ]
+        },
+        {
+          "idx": 5,
+          "tipo": "head",
+          "meta": {
+            "position": {
+              "x": 787.3333333333334,
+              "y": 381.33333333333337
+            }
+          },
+          "ligacoes": [
+            12,
+            9
+          ],
+          "ligacaoPortas": [
+            0,
+            1
+          ],
+          "inputs": [
+            ""
+          ],
+          "outputs": [
+            ""
+          ]
+        },
+        {
+          "idx": 6,
+          "tipo": "disor",
+          "meta": {
+            "position": {
+              "x": 952.875,
+              "y": 199.125
+            }
+          },
+          "ligacoes": [
+            8,
+            9
+          ],
+          "ligacaoPortas": [
+            0,
+            0
+          ],
+          "inputs": [
+            ""
+          ],
+          "outputs": [
+            ""
+          ]
+        },
+        {
+          "idx": 7,
+          "tipo": "visor",
+          "meta": {
+            "position": {
+              "x": 1751.625,
+              "y": 199.95833333333331
+            }
+          },
+          "ligacoes": [
+            18
+          ],
+          "ligacaoPortas": [
+            0
+          ],
+          "inputs": [
+            "",
+            ""
+          ],
+          "outputs": [
+            ""
+          ]
+        },
+        {
+          "idx": 8,
+          "tipo": "cons",
+          "meta": {
+            "position": {
+              "x": 1376.8333333333337,
+              "y": 3.2916666666666217
+            }
+          },
+          "ligacoes": [
+            17
+          ],
+          "ligacaoPortas": [
+            0
+          ],
+          "inputs": [
+            "",
+            ""
+          ],
+          "outputs": [
+            ""
+          ]
+        },
+        {
+          "idx": 9,
+          "tipo": "cons",
+          "meta": {
+            "position": {
+              "x": 1321.8333333333333,
+              "y": 389.12500000000006
+            }
+          },
+          "ligacoes": [
+            14
+          ],
+          "ligacaoPortas": [
+            0
+          ],
+          "inputs": [
+            "",
+            ""
+          ],
+          "outputs": [
+            ""
+          ]
+        },
+        {
+          "idx": 10,
+          "tipo": "list",
+          "meta": {
+            "position": {
+              "x": 1319.4259259259259,
+              "y": 476.60185185185196
+            }
+          },
+          "ligacoes": [
+            14
+          ],
+          "ligacaoPortas": [
+            1
+          ],
+          "valor": [],
+          "outputs": [
+            ""
+          ]
+        },
+        {
+          "idx": 11,
+          "tipo": "lig",
+          "meta": {
+            "position": {
+              "x": 1441.0925925925926,
+              "y": 343.2685185185185
+            }
+          },
+          "ligacoes": [
+            15
+          ],
+          "ligacaoPortas": [
+            0
+          ],
+          "inputs": [
+            ""
+          ],
+          "outputs": [
+            ""
+          ]
+        },
+        {
+          "idx": 12,
+          "tipo": "lig",
+          "meta": {
+            "position": {
+              "x": 1312.7592592592596,
+              "y": 103.2685185185187
+            }
+          },
+          "ligacoes": [
+            16
+          ],
+          "ligacaoPortas": [
+            0
+          ],
+          "inputs": [
+            ""
+          ],
+          "outputs": [
+            ""
+          ]
+        },
+        {
+          "idx": 13,
+          "tipo": "list",
+          "meta": {
+            "position": {
+              "x": 1316.925925925926,
+              "y": 186.60185185185196
+            }
+          },
+          "ligacoes": [
+            16
+          ],
+          "ligacaoPortas": [
+            1
+          ],
+          "valor": [],
+          "outputs": [
+            ""
+          ]
+        },
+        {
+          "idx": 14,
+          "tipo": "cons",
+          "meta": {
+            "position": {
+              "x": 1448.5925925925928,
+              "y": 433.26851851851876
+            }
+          },
+          "ligacoes": [
+            15
+          ],
+          "ligacaoPortas": [
+            1
+          ],
+          "inputs": [
+            "",
+            ""
+          ],
+          "outputs": [
+            ""
+          ]
+        },
+        {
+          "idx": 15,
+          "tipo": "cons",
+          "meta": {
+            "position": {
+              "x": 1575.2592592592594,
+              "y": 386.6018518518521
+            }
+          },
+          "ligacoes": [
+            7
+          ],
+          "ligacaoPortas": [
+            1
+          ],
+          "inputs": [
+            "",
+            ""
+          ],
+          "outputs": [
+            ""
+          ]
+        },
+        {
+          "idx": 16,
+          "tipo": "cons",
+          "meta": {
+            "position": {
+              "x": 1451.925925925926,
+              "y": 138.2685185185187
+            }
+          },
+          "ligacoes": [
+            17
+          ],
+          "ligacaoPortas": [
+            1
+          ],
+          "inputs": [
+            "",
+            ""
+          ],
+          "outputs": [
+            ""
+          ]
+        },
+        {
+          "idx": 17,
+          "tipo": "cons",
+          "meta": {
+            "position": {
+              "x": 1570.2592592592594,
+              "y": 53.26851851851865
+            }
+          },
+          "ligacoes": [
+            7
+          ],
+          "ligacaoPortas": [
+            0
+          ],
+          "inputs": [
+            "",
+            ""
+          ],
+          "outputs": [
+            ""
+          ]
+        },
+        {
+          "idx": 18,
+          "tipo": "lig",
+          "meta": {
+            "position": {
+              "x": 1895.2592592592596,
+              "y": 199.93518518518533
+            }
+          },
+          "ligacoes": [
+            "output"
+          ],
+          "ligacaoPortas": [],
+          "inputs": [
+            ""
+          ],
+          "outputs": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "chamada": "separar",
+      "estado": 0,
+      "entradas": [
+        "",
+        ""
+      ],
+      "saidas": [
+        ""
+      ],
+      "grafo": [
+        {
+          "idx": 0,
+          "tipo": "lig",
+          "meta": {
+            "position": {
+              "x": 604.5,
+              "y": 94.33333333333331
+            }
+          },
+          "ligacoes": [
+            2,
+            11
+          ],
+          "ligacaoPortas": [
+            0,
+            0
+          ],
+          "inputs": [
+            ""
+          ],
+          "outputs": [
+            ""
+          ]
+        },
+        {
+          "idx": 1,
+          "tipo": "lig",
+          "meta": {
+            "position": {
+              "x": 1251.6481481481485,
+              "y": 368.54850088183434
+            }
+          },
+          "ligacoes": [
+            15,
+            13
+          ],
+          "ligacaoPortas": [
+            0,
+            1
+          ],
+          "inputs": [
+            ""
+          ],
+          "outputs": [
+            ""
+          ]
+        },
+        {
+          "idx": 2,
+          "tipo": "is-empty",
+          "meta": {
+            "position": {
+              "x": 783.1666666666666,
+              "y": 96.66666666666669
+            }
+          },
+          "ligacoes": [
+            3
+          ],
+          "ligacaoPortas": [
+            0
+          ],
+          "inputs": [
+            ""
+          ],
+          "outputs": [
+            ""
+          ]
+        },
+        {
+          "idx": 3,
+          "tipo": "disor",
+          "meta": {
+            "position": {
+              "x": 906,
+              "y": 96.66666666666669
+            }
+          },
+          "ligacoes": [
+            10,
+            11
+          ],
+          "ligacaoPortas": [
+            0,
+            0
+          ],
+          "inputs": [
+            ""
+          ],
+          "outputs": [
+            ""
+          ]
+        },
+        {
+          "idx": 4,
+          "tipo": "visor",
+          "meta": {
+            "position": {
+              "x": 1788.6666666666665,
+              "y": 144.33333333333331
+            }
+          },
+          "ligacoes": [
+            18
+          ],
+          "ligacaoPortas": [
+            0
+          ],
+          "inputs": [
+            "",
+            ""
+          ],
+          "outputs": [
+            ""
+          ]
+        },
+        {
+          "idx": 5,
+          "tipo": "list",
+          "meta": {
+            "position": {
+              "x": 806.3888888888888,
+              "y": -29.49999999999997
+            }
+          },
+          "ligacoes": [
+            8
+          ],
+          "ligacaoPortas": [
+            1
+          ],
+          "valor": [],
+          "outputs": [
+            ""
+          ]
+        },
+        {
+          "idx": 6,
+          "tipo": "list",
+          "meta": {
+            "position": {
+              "x": 804.3888888888888,
+              "y": -108.49999999999997
+            }
+          },
+          "ligacoes": [
+            8
+          ],
+          "ligacaoPortas": [
+            0
+          ],
+          "valor": [],
+          "outputs": [
+            ""
+          ]
+        },
+        {
+          "idx": 7,
+          "tipo": "list",
+          "meta": {
+            "position": {
+              "x": 929.3888888888888,
+              "y": -173.49999999999997
+            }
+          },
+          "ligacoes": [
+            9
+          ],
+          "ligacaoPortas": [
+            0
+          ],
+          "valor": [],
+          "outputs": [
+            ""
+          ]
+        },
+        {
+          "idx": 8,
+          "tipo": "cons",
+          "meta": {
+            "position": {
+              "x": 945.3888888888888,
+              "y": -72.49999999999997
+            }
+          },
+          "ligacoes": [
+            9
+          ],
+          "ligacaoPortas": [
+            1
+          ],
+          "inputs": [
+            "",
+            ""
+          ],
+          "outputs": [
+            ""
+          ]
+        },
+        {
+          "idx": 9,
+          "tipo": "cons",
+          "meta": {
+            "position": {
+              "x": 1085.3888888888887,
+              "y": -133.49999999999997
+            }
+          },
+          "ligacoes": [
+            10
+          ],
+          "ligacaoPortas": [
+            0
+          ],
+          "inputs": [
+            "",
+            ""
+          ],
+          "outputs": [
+            ""
+          ]
+        },
+        {
+          "idx": 10,
+          "tipo": "lig",
+          "meta": {
+            "position": {
+              "x": 1312.8888888888887,
+              "y": -17.49999999999997
+            }
+          },
+          "ligacoes": [
+            4
+          ],
+          "ligacaoPortas": [
+            0
+          ],
+          "inputs": [
+            ""
+          ],
+          "outputs": [
+            ""
+          ]
+        },
+        {
+          "idx": 11,
+          "tipo": "lig",
+          "meta": {
+            "position": {
+              "x": 1058.6234567901236,
+              "y": 239.16578483245158
+            }
+          },
+          "ligacoes": [
+            12,
+            14
+          ],
+          "ligacaoPortas": [
+            0,
+            0
+          ],
+          "inputs": [
+            ""
+          ],
+          "outputs": [
+            ""
+          ]
+        },
+        {
+          "idx": 12,
+          "tipo": "tail",
+          "meta": {
+            "position": {
+              "x": 1250.845679012346,
+              "y": 259.16578483245166
+            }
+          },
+          "ligacoes": [
+            13
+          ],
+          "ligacaoPortas": [
+            0
+          ],
+          "inputs": [
+            ""
+          ],
+          "outputs": [
+            ""
+          ]
+        },
+        {
+          "idx": 13,
+          "tipo": "encp",
+          "meta": {
+            "position": {
+              "x": 1390.5370370370372,
+              "y": 294.1040564373899
+            }
+          },
+          "ligacoes": [
+            "separar",
+            17
+          ],
+          "ligacaoPortas": [
+            null,
+            0
+          ],
+          "inputs": [
+            "",
+            ""
+          ],
+          "outputs": [
+            ""
+          ]
+        },
+        {
+          "idx": 14,
+          "tipo": "head",
+          "meta": {
+            "position": {
+              "x": 1259.9814814814818,
+              "y": 495.2151675485011
+            }
+          },
+          "ligacoes": [
+            16,
+            15
+          ],
+          "ligacaoPortas": [
+            0,
+            1
+          ],
+          "inputs": [
+            ""
+          ],
+          "outputs": [
+            ""
+          ]
+        },
+        {
+          "idx": 15,
+          "tipo": "apply",
+          "meta": {
+            "position": {
+              "x": 1395.845679012346,
+              "y": 417.8077601410934
+            }
+          },
+          "ligacoes": [
+            17
+          ],
+          "ligacaoPortas": [
+            1
+          ],
+          "inputs": [
+            "",
+            ""
+          ],
+          "outputs": [
+            ""
+          ]
+        },
+        {
+          "idx": 16,
+          "tipo": "lig",
+          "meta": {
+            "position": {
+              "x": 1401.7638888888891,
+              "y": 557.7559523809525
+            }
+          },
+          "ligacoes": [
+            17
+          ],
+          "ligacaoPortas": [
+            2
+          ],
+          "inputs": [
+            ""
+          ],
+          "outputs": [
+            ""
+          ]
+        },
+        {
+          "idx": 17,
+          "tipo": "encp",
+          "meta": {
+            "position": {
+              "x": 1558.4305555555557,
+              "y": 415.6726190476192
+            }
+          },
+          "ligacoes": [
+            "auxiliar",
+            4
+          ],
+          "ligacaoPortas": [
+            null,
+            1
+          ],
+          "inputs": [
+            "",
+            "",
+            ""
+          ],
+          "outputs": [
+            ""
+          ]
+        },
+        {
+          "idx": 18,
+          "tipo": "lig",
+          "meta": {
+            "position": {
+              "x": 1921.5092592592591,
+              "y": 144.33333333333343
+            }
+          },
+          "ligacoes": [
+            "output"
+          ],
+          "ligacaoPortas": [],
+          "inputs": [
+            ""
+          ],
+          "outputs": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "chamada": "main",
+      "estado": 0,
+      "entradas": [
+        ""
+      ],
+      "saidas": [
+        ""
+      ],
+      "grafo": [
+        {
+          "idx": 0,
+          "tipo": "lig",
+          "meta": {
+            "position": {
+              "x": 482,
+              "y": 201
+            }
+          },
+          "ligacoes": [
+            2
+          ],
+          "ligacaoPortas": [
+            0
+          ],
+          "inputs": [
+            ""
+          ],
+          "outputs": [
+            ""
+          ]
+        },
+        {
+          "idx": 1,
+          "tipo": "func",
+          "meta": {
+            "position": {
+              "x": 482,
+              "y": 293
+            }
+          },
+          "ligacoes": [
+            2
+          ],
+          "ligacaoPortas": [
+            1
+          ],
+          "inputs": [],
+          "funcao": "ehMaiorQue10",
+          "outputs": [
+            ""
+          ]
+        },
+        {
+          "idx": 2,
+          "tipo": "encp",
+          "meta": {
+            "position": {
+              "x": 650,
+              "y": 245
+            }
+          },
+          "ligacoes": [
+            "separar",
+            3
+          ],
+          "ligacaoPortas": [
+            null,
+            0
+          ],
+          "inputs": [
+            "",
+            ""
+          ],
+          "outputs": [
+            ""
+          ]
+        },
+        {
+          "idx": 3,
+          "tipo": "lig",
+          "meta": {
+            "position": {
+              "x": 795,
+              "y": 246
+            }
+          },
+          "ligacoes": [
+            "output"
+          ],
+          "ligacaoPortas": [],
+          "inputs": [
+            ""
+          ],
+          "outputs": [
+            ""
+          ]
+        }
+      ]
+    }
+  ]
+}
