@@ -1,0 +1,751 @@
+{
+  "nome": "Desafio7",
+  "entradas": [
+    {
+      "kind": "list",
+      "elements": [
+        1,
+        2,
+        3,
+        4,
+        12,
+        13,
+        50,
+        60,
+        65
+      ]
+    }
+  ],
+  "estado": 0,
+  "lista": [
+    {
+      "id": 0,
+      "chamada": "filtrar",
+      "estado": 0,
+      "entradas": [
+        "",
+        ""
+      ],
+      "saidas": [
+        ""
+      ],
+      "grafo": [
+        {
+          "idx": 0,
+          "tipo": "lig",
+          "meta": {
+            "position": {
+              "x": 194.37792341519747,
+              "y": 214.6153730915904
+            }
+          },
+          "ligacoes": [
+            2,
+            6
+          ],
+          "ligacaoPortas": [
+            0,
+            0
+          ],
+          "inputs": [
+            ""
+          ],
+          "outputs": [
+            ""
+          ]
+        },
+        {
+          "idx": 1,
+          "tipo": "lig",
+          "meta": {
+            "position": {
+              "x": 775.1023072028537,
+              "y": 403.8002100986437
+            }
+          },
+          "ligacoes": [
+            9,
+            8
+          ],
+          "ligacaoPortas": [
+            0,
+            1
+          ],
+          "inputs": [
+            ""
+          ],
+          "outputs": [
+            ""
+          ]
+        },
+        {
+          "idx": 2,
+          "tipo": "is-empty",
+          "meta": {
+            "position": {
+              "x": 380.10121798613795,
+              "y": 213.86038079432777
+            }
+          },
+          "ligacoes": [
+            3
+          ],
+          "ligacaoPortas": [
+            0
+          ],
+          "inputs": [
+            ""
+          ],
+          "outputs": [
+            ""
+          ]
+        },
+        {
+          "idx": 3,
+          "tipo": "disor",
+          "meta": {
+            "position": {
+              "x": 495.68295149177504,
+              "y": 213.6659051269647
+            }
+          },
+          "ligacoes": [
+            5,
+            6
+          ],
+          "ligacaoPortas": [
+            0,
+            0
+          ],
+          "inputs": [
+            ""
+          ],
+          "outputs": [
+            ""
+          ]
+        },
+        {
+          "idx": 4,
+          "tipo": "visor",
+          "meta": {
+            "position": {
+              "x": 1592.8572555971525,
+              "y": 269.0052032936536
+            }
+          },
+          "ligacoes": [
+            15
+          ],
+          "ligacaoPortas": [
+            0
+          ],
+          "inputs": [
+            "",
+            ""
+          ],
+          "outputs": [
+            ""
+          ]
+        },
+        {
+          "idx": 5,
+          "tipo": "list",
+          "meta": {
+            "position": {
+              "x": 937.7278792049876,
+              "y": 186.3151646846248
+            }
+          },
+          "ligacoes": [
+            4
+          ],
+          "ligacaoPortas": [
+            0
+          ],
+          "valor": [],
+          "outputs": [
+            ""
+          ]
+        },
+        {
+          "idx": 6,
+          "tipo": "lig",
+          "meta": {
+            "position": {
+              "x": 587.1726893260054,
+              "y": 305.62283977901717
+            }
+          },
+          "ligacoes": [
+            7,
+            14
+          ],
+          "ligacaoPortas": [
+            0,
+            0
+          ],
+          "inputs": [
+            ""
+          ],
+          "outputs": [
+            ""
+          ]
+        },
+        {
+          "idx": 7,
+          "tipo": "tail",
+          "meta": {
+            "position": {
+              "x": 774.9575708706702,
+              "y": 300.43447743443227
+            }
+          },
+          "ligacoes": [
+            8
+          ],
+          "ligacaoPortas": [
+            0
+          ],
+          "inputs": [
+            ""
+          ],
+          "outputs": [
+            ""
+          ]
+        },
+        {
+          "idx": 8,
+          "tipo": "encp",
+          "meta": {
+            "position": {
+              "x": 972.8360120414637,
+              "y": 317.94857616264005
+            }
+          },
+          "ligacoes": [
+            "filtrar",
+            12,
+            13
+          ],
+          "ligacaoPortas": [
+            null,
+            0,
+            1
+          ],
+          "inputs": [
+            "",
+            ""
+          ],
+          "outputs": [
+            ""
+          ]
+        },
+        {
+          "idx": 9,
+          "tipo": "apply",
+          "meta": {
+            "position": {
+              "x": 964.7827160163077,
+              "y": 515.1012648161548
+            }
+          },
+          "ligacoes": [
+            10
+          ],
+          "ligacaoPortas": [
+            0
+          ],
+          "inputs": [
+            "",
+            ""
+          ],
+          "outputs": [
+            ""
+          ]
+        },
+        {
+          "idx": 10,
+          "tipo": "disor",
+          "meta": {
+            "position": {
+              "x": 1079.4301577845742,
+              "y": 517.8736599037592
+            }
+          },
+          "ligacoes": [
+            13,
+            12
+          ],
+          "ligacaoPortas": [
+            0,
+            0
+          ],
+          "inputs": [
+            ""
+          ],
+          "outputs": [
+            ""
+          ]
+        },
+        {
+          "idx": 11,
+          "tipo": "visor",
+          "meta": {
+            "position": {
+              "x": 1368.6685887558401,
+              "y": 461.46515081401196
+            }
+          },
+          "ligacoes": [
+            4
+          ],
+          "ligacaoPortas": [
+            1
+          ],
+          "inputs": [
+            "",
+            ""
+          ],
+          "outputs": [
+            ""
+          ]
+        },
+        {
+          "idx": 12,
+          "tipo": "lig",
+          "meta": {
+            "position": {
+              "x": 1267.273732921136,
+              "y": 548.6706589544273
+            }
+          },
+          "ligacoes": [
+            11
+          ],
+          "ligacaoPortas": [
+            1
+          ],
+          "inputs": [
+            ""
+          ],
+          "outputs": [
+            ""
+          ]
+        },
+        {
+          "idx": 13,
+          "tipo": "cons",
+          "meta": {
+            "position": {
+              "x": 1248.0317416013913,
+              "y": 391.60134165605365
+            }
+          },
+          "ligacoes": [
+            11
+          ],
+          "ligacaoPortas": [
+            0
+          ],
+          "inputs": [
+            "",
+            ""
+          ],
+          "outputs": [
+            ""
+          ]
+        },
+        {
+          "idx": 14,
+          "tipo": "head",
+          "meta": {
+            "position": {
+              "x": 773.857142857143,
+              "y": 504.57142857142856
+            }
+          },
+          "ligacoes": [
+            13,
+            9
+          ],
+          "ligacaoPortas": [
+            0,
+            1
+          ],
+          "inputs": [
+            ""
+          ],
+          "outputs": [
+            ""
+          ]
+        },
+        {
+          "idx": 15,
+          "tipo": "lig",
+          "meta": {
+            "position": {
+              "x": 1714.6816017428698,
+              "y": 271.02095725081415
+            }
+          },
+          "ligacoes": [
+            "output"
+          ],
+          "ligacaoPortas": [],
+          "inputs": [
+            ""
+          ],
+          "outputs": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "chamada": "ehPar",
+      "estado": 0,
+      "entradas": [
+        ""
+      ],
+      "saidas": [
+        ""
+      ],
+      "grafo": [
+        {
+          "idx": 0,
+          "tipo": "lig",
+          "meta": {
+            "position": {
+              "x": 108.5,
+              "y": 128
+            }
+          },
+          "ligacoes": [
+            2
+          ],
+          "ligacaoPortas": [
+            0
+          ],
+          "inputs": [
+            ""
+          ],
+          "outputs": [
+            ""
+          ]
+        },
+        {
+          "idx": 1,
+          "tipo": "const",
+          "meta": {
+            "position": {
+              "x": 106.5,
+              "y": 222
+            }
+          },
+          "ligacoes": [
+            2
+          ],
+          "ligacaoPortas": [
+            1
+          ],
+          "inputs": [
+            2
+          ],
+          "outputs": [
+            ""
+          ]
+        },
+        {
+          "idx": 2,
+          "tipo": "resto",
+          "meta": {
+            "position": {
+              "x": 252,
+              "y": 167
+            }
+          },
+          "ligacoes": [
+            4
+          ],
+          "ligacaoPortas": [
+            0
+          ],
+          "inputs": [
+            "",
+            ""
+          ],
+          "outputs": [
+            ""
+          ]
+        },
+        {
+          "idx": 3,
+          "tipo": "const",
+          "meta": {
+            "position": {
+              "x": 249,
+              "y": 276
+            }
+          },
+          "ligacoes": [
+            4
+          ],
+          "ligacaoPortas": [
+            1
+          ],
+          "inputs": [
+            0
+          ],
+          "outputs": [
+            ""
+          ]
+        },
+        {
+          "idx": 4,
+          "tipo": "igual",
+          "meta": {
+            "position": {
+              "x": 415,
+              "y": 214
+            }
+          },
+          "ligacoes": [
+            5
+          ],
+          "ligacaoPortas": [
+            0
+          ],
+          "inputs": [
+            "",
+            ""
+          ],
+          "outputs": [
+            ""
+          ]
+        },
+        {
+          "idx": 5,
+          "tipo": "lig",
+          "meta": {
+            "position": {
+              "x": 557,
+              "y": 216
+            }
+          },
+          "ligacoes": [
+            "output"
+          ],
+          "ligacaoPortas": [],
+          "inputs": [
+            ""
+          ],
+          "outputs": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "chamada": "ehMaiorQue10",
+      "estado": 0,
+      "entradas": [
+        ""
+      ],
+      "saidas": [
+        ""
+      ],
+      "grafo": [
+        {
+          "idx": 0,
+          "tipo": "lig",
+          "meta": {
+            "position": {
+              "x": 474.5,
+              "y": 201
+            }
+          },
+          "ligacoes": [
+            2
+          ],
+          "ligacaoPortas": [
+            0
+          ],
+          "inputs": [
+            ""
+          ],
+          "outputs": [
+            ""
+          ]
+        },
+        {
+          "idx": 1,
+          "tipo": "const",
+          "meta": {
+            "position": {
+              "x": 473.5,
+              "y": 302
+            }
+          },
+          "ligacoes": [
+            2
+          ],
+          "ligacaoPortas": [
+            1
+          ],
+          "inputs": [
+            10
+          ],
+          "outputs": [
+            ""
+          ]
+        },
+        {
+          "idx": 2,
+          "tipo": "maio",
+          "meta": {
+            "position": {
+              "x": 621.5,
+              "y": 248
+            }
+          },
+          "ligacoes": [
+            3
+          ],
+          "ligacaoPortas": [
+            0
+          ],
+          "inputs": [
+            "",
+            ""
+          ],
+          "outputs": [
+            ""
+          ]
+        },
+        {
+          "idx": 3,
+          "tipo": "lig",
+          "meta": {
+            "position": {
+              "x": 761.5,
+              "y": 248
+            }
+          },
+          "ligacoes": [
+            "output"
+          ],
+          "ligacaoPortas": [],
+          "inputs": [
+            ""
+          ],
+          "outputs": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "chamada": "main",
+      "estado": 0,
+      "entradas": [
+        ""
+      ],
+      "saidas": [
+        ""
+      ],
+      "grafo": [
+        {
+          "idx": 0,
+          "tipo": "lig",
+          "meta": {
+            "position": {
+              "x": 474.5,
+              "y": 201
+            }
+          },
+          "ligacoes": [
+            1
+          ],
+          "ligacaoPortas": [
+            0
+          ],
+          "inputs": [
+            ""
+          ],
+          "outputs": [
+            ""
+          ]
+        },
+        {
+          "idx": 1,
+          "tipo": "encp",
+          "meta": {
+            "position": {
+              "x": 676,
+              "y": 243
+            }
+          },
+          "ligacoes": [
+            "filtrar",
+            3
+          ],
+          "ligacaoPortas": [
+            null,
+            0
+          ],
+          "inputs": [
+            "",
+            ""
+          ],
+          "outputs": [
+            ""
+          ]
+        },
+        {
+          "idx": 2,
+          "tipo": "func",
+          "meta": {
+            "position": {
+              "x": 473,
+              "y": 309
+            }
+          },
+          "ligacoes": [
+            1
+          ],
+          "ligacaoPortas": [
+            1
+          ],
+          "inputs": [],
+          "funcao": "ehPar",
+          "outputs": [
+            ""
+          ]
+        },
+        {
+          "idx": 3,
+          "tipo": "lig",
+          "meta": {
+            "position": {
+              "x": 852,
+              "y": 241
+            }
+          },
+          "ligacoes": [
+            "output"
+          ],
+          "ligacaoPortas": [],
+          "inputs": [
+            ""
+          ],
+          "outputs": [
+            ""
+          ]
+        }
+      ]
+    }
+  ]
+}
