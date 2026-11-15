@@ -19,4 +19,6 @@ Para isso, é necessário primeiro isolar o que era específico para a base 2 e 
 Sendo assim, a função `ehPotencia(n, base)` segue a mesma lógica anterior, substituindo os valores que antes eram constantes = `2` pelo parâmetro `base`. A função auxiliar `ehParPositivo(n)` pode ser adaptada para verificar se `n` é divisível pela base, tornando-se `ehDivisor(n, base)`.
 
 ## Resultado esperado do desafio
-O objetivo do desafio é que os participantes consigam identificar as partes específicas da função original e generalizá-las para qualquer base maior ou igual a 2, implementando a função `ehPotencia(n, base)` corretamente. A função deve ser capaz de determinar se `n` é uma potência de `base`, demonstrando a compreensão da generalização de funções e da adaptação de algoritmos para diferentes parâmetros.
+Espera-se que os participantes sejam capazes de analisar criticamente a solução desenvolvida no desafio anterior, identificando quais elementos são específicos da base dois e quais representam aspectos gerais do problema. O desafio busca evidenciar processos de identificação de similaridades, observados no reconhecimento da estrutura comum entre diferentes casos do problema, e de generalização, expressos pela transformação de uma solução específica em uma função parametrizada. 
+
+Além disso, espera-se observar evidências de mapeamento estrutural e reutilização, uma vez que a solução generalizada deve preservar a lógica fundamental construída anteriormente, modificando apenas os elementos necessários para ampliar seu domínio de aplicação.
